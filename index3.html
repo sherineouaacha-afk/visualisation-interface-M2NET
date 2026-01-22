@@ -296,7 +296,7 @@
 
         async function loadData() {
             try {
-                const fileData = await window.fs.readFile('data.csv', { encoding: 'utf8' });
+                const fileData = await window.fs.readFile('women_in_software_engineering_stats.csv', { encoding: 'utf8' });
                 
                 Papa.parse(fileData, {
                     header: true,
@@ -549,3 +549,4 @@
 </body>
 
 </html>
+
